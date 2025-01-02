@@ -372,9 +372,10 @@ section {
     margin: 0!important;
   }
   .box-4{
-    margin-left: 31px;
-    margin-right: 31px;
+    margin-left: 14px;
+    margin-right: 14px;
     max-width: 300px;
+   
   }
   .flex-col-md{
     flex-direction: column;
