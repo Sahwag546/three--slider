@@ -66,9 +66,6 @@ section {
   display: flex;
   align-items: center;
 }
-.max-w-1500{
-  max-width: 1650px;
-}
 .mb-57 {
   margin-bottom: 57px;
 }
@@ -171,6 +168,7 @@ section {
 .right-setup{
   max-width: 1320px;
   margin-left: auto;
+  /* margin-right: auto; */
   position: relative;
 }
 
@@ -191,6 +189,11 @@ section {
   padding: 24px;
   border-radius: 24px;
   background-color: #fff;
+}
+.max-w-1500{
+  max-width: 1700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .box-heading {
