@@ -66,6 +66,9 @@ section {
   display: flex;
   align-items: center;
 }
+.max-w-1500{
+  max-width: 1650px;
+}
 .mb-57 {
   margin-bottom: 57px;
 }
@@ -343,20 +346,19 @@ section {
   .d-none-arrow {
     display: none;
   }
-}
-
-
-@media (max-width: 992px) {
-  .first-slider {
-    transform: none;
-  }
-
   .circle-3 {
     display: none !important;
   }
 
   .circle-4 {
     display: none !important;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .first-slider {
+    transform: none;
   }
 
   .pt-100 {
@@ -377,6 +379,7 @@ section {
     max-width: 300px;
    
   }
+
   .flex-col-md{
     flex-direction: column;
   }

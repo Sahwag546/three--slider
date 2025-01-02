@@ -85,18 +85,14 @@ $('.one-time').slick({
       breakpoint: 1300,
       settings: {
         arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 5
+        slidesToShow: 5,
       }
       },
       {
       breakpoint: 1200,
       settings: {
         arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 4
+        slidesToShow: 4,
       }
     },
   ]
