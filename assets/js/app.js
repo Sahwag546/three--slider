@@ -20,12 +20,20 @@ $('.first-slider').slick({
             }
         },
         {
-            breakpoint: 786,
+            breakpoint: 720,
             settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToShow: 2,
+                slidesToScroll: 1,
             }
-        }
+      },
+        
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+            }
+        },
     ]
     
 });

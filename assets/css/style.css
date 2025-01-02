@@ -69,22 +69,22 @@ section {
 .mb-57 {
   margin-bottom: 57px;
 }
-.circle-3 {
-  position: absolute;
-  right: 10%;
+.container{
+  position: relative;
 }
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
-
-.circle-4 {
+.right-set{
   position: absolute;
-  right: 15%;
+  bottom: -15%;
+  right: 10%;
 }
 
 .circle:hover {
-  border: 2px solid white;
+  border: 2px solid #f53838;
   background: #f53838;
   transition: all 300ms;
 
@@ -114,6 +114,7 @@ section {
   border: 2px solid #dddddd;
   border-radius: 10px;
   padding: 20px;
+  max-width: 490px;
 }
 
 .first-slide .slick-track {
@@ -139,7 +140,7 @@ section {
 }
 
 .first-slide .slick-dots {
-  left: -44%;
+  left: -40%;
   position: relative;
   bottom: -80px;
 }
@@ -164,9 +165,10 @@ section {
   background: orangered;
   width: 58px;
 }
-
-.first-slider {
-  transform: translateX(120px);
+.right-setup{
+  max-width: 1320px;
+  margin-left: auto;
+  position: relative;
 }
 
 .first-slide .slick-track .slick-slide.slick-current.slick-active {
@@ -278,8 +280,8 @@ section {
   overflow: hidden;
 }
 .mx-25 {
-  margin-left: 25px;
-  margin-right: 25px;
+   margin-left: 50px;
+  /* margin-right: 25px;  */
 }
 .green-btn .slick-next:before {
   content: none;
@@ -357,15 +359,6 @@ section {
     display: none !important;
   }
 
-  .first-slide .slick-dots {
-    position: relative;
-    left: 0;
-  }
-
-  .second-slide .slick-dots {
-    position: relative;
-    bottom: -30px;
-  }
   .pt-100 {
   padding-top: 100px;
 }
@@ -376,23 +369,21 @@ section {
 
 @media (max-width: 576px) {
   .box-1 {
-    margin: 0 !important;
+    margin: 0!important;
   }
-  
+  .box-4{
+    margin-left: 31px;
+    margin-right: 31px;
+    max-width: 300px;
+  }
+  .flex-col-md{
+    flex-direction: column;
+  }
 
   .box {
     margin-right: 0 !important;
   }
 
-  .second-slide .slick-dots {
-    position: relative;
-    bottom: -20px;
-  }
-
-  .testimal .slick-dots {
-    position: relative;
-    bottom: -30px;
-  }
 }
 @media (max-width: 1300px) {
   .ml-150 {
@@ -402,4 +393,9 @@ section {
     margin-left: 25px;
     margin-right: 25px;
   }
+  .first-slide .slick-dots {
+  position: relative;
+  top: 30px;
+
+}
 }
