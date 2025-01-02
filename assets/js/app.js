@@ -1,6 +1,6 @@
 
 // slider-1 
-$('.third-slider').slick({
+$('.first-slider').slick({
     dots: true,
     arrow: false,
     slidesToShow: 3,

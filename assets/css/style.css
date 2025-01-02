@@ -116,16 +116,16 @@ section {
   padding: 20px;
 }
 
-.third-slide .slick-track {
+.first-slide .slick-track {
   display: flex !important;
 }
 
-.third-slide .slick-slide {
+.first-slide .slick-slide {
   height: inherit !important;
   display: flex !important;
 }
 
-.third-slide .slick-slide > div {
+.first-slide .slick-slide > div {
   display: flex;
 }
 
@@ -133,12 +133,12 @@ section {
   content: unset !important;
 }
 
-.third-slide .slick-dots li {
+.first-slide .slick-dots li {
   background: rgb(223, 220, 220);
   border-radius: 30px;
 }
 
-.third-slide .slick-dots {
+.first-slide .slick-dots {
   left: -44%;
   position: relative;
   bottom: -80px;
@@ -160,16 +160,16 @@ section {
   text-align: center;
 }
 
-.third-slide .slick-dots li.slick-active {
+.first-slide .slick-dots li.slick-active {
   background: orangered;
   width: 58px;
 }
 
-.third-slider {
+.first-slider {
   transform: translateX(120px);
 }
 
-.third-slide .slick-track .slick-slide.slick-current.slick-active {
+.first-slide .slick-track .slick-slide.slick-current.slick-active {
   border: 2px solid orangered;
 }
 
@@ -345,7 +345,7 @@ section {
 
 
 @media (max-width: 992px) {
-  .third-slider {
+  .first-slider {
     transform: none;
   }
 
@@ -357,7 +357,7 @@ section {
     display: none !important;
   }
 
-  .third-slide .slick-dots {
+  .first-slide .slick-dots {
     position: relative;
     left: 0;
   }
